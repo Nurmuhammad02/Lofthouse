@@ -135,6 +135,18 @@ a:hover {
   text-align: right;
 }
 
+.visually-hidden {
+  height: 1px;
+  overflow: hidden;
+  width: 1px;
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -205,4 +217,10 @@ header {
 }
 .info--tel::before {
   background-image: url("./../img/header/phone.svg");
+}
+
+.benefits__row {
+  display: flex;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
 }/*# sourceMappingURL=main.css.map */
