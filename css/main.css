@@ -131,6 +131,10 @@ a:hover {
   max-width: 1140px;
 }
 
+.text-right {
+  text-align: right;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -164,6 +168,12 @@ header {
   transform: translate(-50%, 0%);
 }
 
+.header__footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
 .nav {
   font-size: 14px;
 }
@@ -172,4 +182,27 @@ header {
   display: flex;
   -moz-column-gap: 40px;
        column-gap: 40px;
+}
+
+.info {
+  font-size: 18px;
+  position: relative;
+}
+.info--map, .info--tel {
+  padding-left: 35px;
+}
+.info--map::before, .info--tel::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 21px;
+  height: 21px;
+  background-repeat: no-repeat;
+}
+.info--map::before {
+  background-image: url("./../img/header/map.svg");
+}
+.info--tel::before {
+  background-image: url("./../img/header/phone.svg");
 }/*# sourceMappingURL=main.css.map */
