@@ -10,6 +10,7 @@ body {
 a {
     color: $white;
     transition: color 0.2s ease-in;
+
     &:hover {
         color: $accent;
     }
@@ -19,10 +20,12 @@ a {
     margin: 0 auto;
     padding: 0 15px;
     max-width: 1140px;
+
     &--sm {
         max-width: 840px;
     }
 }
+
 .text-right {
     text-align: right;
 }
