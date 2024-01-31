@@ -452,4 +452,15 @@ header {
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   align-items: center;
+}
+
+.footer {
+  padding-top: 72px;
+  padding-bottom: 51px;
+  background: #2D343C;
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }/*# sourceMappingURL=main.css.map */
