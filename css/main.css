@@ -242,6 +242,12 @@ header {
 .benefits {
   padding: 120px 0;
 }
+.benefits::after {
+  content: "II";
+  opacity: 0.02;
+  font-size: 400px;
+  font-family: "Playfair Display", serif;
+}
 
 .benefits__row {
   display: flex;
